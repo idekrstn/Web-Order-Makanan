@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Important to make website responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Website</title>
+
+    <!-- Link our CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="#" title="Logo">
+            <img src="images/logo1.jpg" alt="Restaurat Logo" class="img-responsive" />
+          </a>
+        </div>
+
+        <div class="menu text-right">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="categories.html">Categories</a>
+            </li>
+            <li>
+              <a href="foods.html">Foods</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="clearfix"></div>
+      </div>
+    </section>
+    <!-- Navbar Section Ends here -->
+
+    <!-- Order Section Starts Here -->
+    <section class="food_search-order">
+      <div class="container">
+        <h2 class="text-center text-white">Fill this form to confirm your order</h2>
+
+        <form action="#" class="order">
+          <fieldset>
+            <legend class="text-white">Selected Food</legend>
+
+            <div class="food-menu-img">
+              <img src="images/american-classic-cheeseburger.png" alt="Chicken Hawain Pizza" class="img-responsive img-curve" />
+            </div>
+
+            <div class="food-menu-desc">
+              <h3 class="text-white">Classic Chesseburger</h3>
+              <p class="food-price text-white">Rp 20.500</p>
+
+              <div class="order.html text-white">Quantity</div>
+              <input type="number" name="qty" class="input-responsive" values="1" required />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend class="text-white">Delivery Details</legend>
+            <div class="order-label text-white">Full Name</div>
+            <input type="text" name="full-name" placeholder="E.g. Dhanny Rukmana" class="input-responsive" />
+
+            <div class="order-label text-white">Phone Number</div>
+            <input type="tel" name="contact" placeholder="E.g. +62813xxxxxxxxxxx" class="input-responsive" />
+
+            <div class="order-label text-white">Email</div>
+            <input type="email" name="email" placeholder="E.g. dhanker2626@gmail.com" class="input-responsive" />
+
+            <div class="order-label text-white">Address</div>
+            <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="input-responsive"></textarea>
+
+            <input type="submit" name="submit" value="Confirm Order" class="btn-order btn-primary" />
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <!-- Order Section Ends Here -->
+
+    <!-- Footer Section Starts Here -->
+    <section class="footer">
+      <div class="container">
+        <h3 class="text-white text-center">DÉLICIEUSE RESTAURANT</h3>
+        <!-- Social Section Starts Here -->
+        <div class="social text-center">
+          <ul>
+            <li>
+              <a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png" /></a>
+            </li>
+          </ul>
+        </div>
+        <!-- Social Section Ends Here -->
+        <p class="text-center text-white">All rights reserved. Designed By <a href="#">Dhanny Rukmana</a></p>
+      </div>
+    </section>
+    <!-- Footer Section Ends Here -->
+  </body>
+</html>
